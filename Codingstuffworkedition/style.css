@@ -1,0 +1,72 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: 'Rubik', sans-serif;
+}
+
+a {
+  display: inline-block;
+}
+
+p {
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h1, h4 {
+  color: rgb(180, 44, 44);
+  padding: 0;
+  margin: 0;
+}
+
+
+button {
+  color: rgb(255, 166, 0);
+  background-color: red;
+  width: 120px;
+  height: 45px;
+}
+
+
+.section1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  height: 250px;
+  border: 5px solid red;
+  margin: 0;
+}
+
+.test {
+  display: flex;
+}
+
+
+.section1 > * {
+  border: 2px solid blue;
+  padding: 0;
+  margin: 2px; 
+  gap: 5px;
+}
+
+#message {
+  flex: 1;
+}
+
+#imgdesc1 {
+  border: 2px solid blue;
+  height: 250px;
+  width: 230px;
+  align-self: center;
+  flex: 1;
+}
+
+.section2, .section4 {
+  background-color: gray;
+}
+.section3 {
+  background-color: white;
+}
